@@ -1,0 +1,29 @@
+<div class="container emp-profile">
+  <form method="post"> 
+    <div class="container">
+      <h5><i class="fa fa-github"></i> Repositories</h5>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Name</th>
+            <th>Language</th>
+            <th>Default Branch</th>
+            <th>Created Date</th>
+            <th>Discription</th>
+            <th>Visit to Repo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let repo of repoData">
+            <td>{{repo.name}}</td>
+            <td>{{repo.language}}</td>
+            <td>{{repo.default_branch}}</td>
+            <td>{{repo.created_at}}</td>
+            <td>{{repo.description}}</td>
+            <td><a href={{repo.html_url}} class="btn btn-dark btn-sm" role="button">Click</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+</div>
