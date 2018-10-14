@@ -2,8 +2,7 @@
 
 This is a demo app build to demonstrate the OAuth flow of the GitHub.
 
-> This will have sample user login with GitHub OAuth.
-> After login, all the repo details will be shown to the users.
+> This will have sample user login with GitHub OAuth and repo Details of the GitHub
 
 
 ### Technologies
@@ -11,7 +10,7 @@ This is a demo app build to demonstrate the OAuth flow of the GitHub.
 Mainly this app has two parts separately. 
 
 * Front-end -> Angular 6.
-In order to run the front end following commands may use.
+(In order to run the front end following commands can use.)
 ```sh
 npm install
 ng serve 
@@ -19,7 +18,7 @@ ng serve
 
 
 * Back-end -> NodeJs.
-In order to run the front end following commands may use.
+(In order to run the Back end following commands can use.)
 ```sh
 npm install
 npm run dev 
